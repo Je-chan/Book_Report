@@ -11,3 +11,13 @@ const half = array.length / 2
 const odds: number[] = array.filter((value) => value % 2 !== 0)
 const evens: number[] = array.filter((value) => value % 2 === 0)
 ```
+
+# 2. map
+```typescript
+map(callback: (value: T, index?: number): Q): Q[]
+```
+
+# 3. reduce
+```typescript
+reduce(callback: (result: T, value: T), initValue: T): T
+```
